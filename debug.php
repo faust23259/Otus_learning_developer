@@ -9,3 +9,6 @@ $logEntry = "Текущая дата: " . $currentDateTime . PHP_EOL;
 file_put_contents($logFile, $logEntry, FILE_APPEND);
 
 echo "дата записана";
+
+
+
